@@ -8,3 +8,13 @@ font-weight: bold;
 font-family: cursive;
 font-size: 20px; 
 }
+.summary-column {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%; /* Set the height to 100% to cover the entire viewport height */
+    background-color: #fff; /* Optional: Set background color for the fixed column */
+    padding: 20px; /* Optional: Add padding for better appearance */
+    margin-top: 10vh;  
+}
+  
