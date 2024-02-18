@@ -1,4 +1,4 @@
-import toast, {Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 import {remove,add} from '../redux/Slices/CartSlice';
 function Products({ post }) {
@@ -28,7 +28,7 @@ function Products({ post }) {
           <p>{post.price}₹</p>
           {  cart.some((p)=>p.id===post.id) ?<button onClick={removeItem} className="btn  btn-primary ">Remove Item</button> :<button onClick={addToCart} className="btn  btn-primary ">Add To Cart</button> }
           
-          <Toaster/>
+    
         </div>
       </>
     );

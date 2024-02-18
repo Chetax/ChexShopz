@@ -1,7 +1,7 @@
 import { MdDelete } from "react-icons/md";
 import { useDispatch } from "react-redux";
 import {remove} from '../redux/Slices/CartSlice';
-import toast, {Toaster } from "react-hot-toast";
+import toast from "react-hot-toast";
 function CartsItems({item}) {
     const dispatch=useDispatch();
     const removefromcart=()=>
@@ -22,7 +22,7 @@ function CartsItems({item}) {
               .slice(0, 15) // Take the first 10 words
               .join(" ") + "..."} {/* Join the words back into a string and add "..." */}</p>
   <span style={{fontWeight:"bold" ,marginRight:"15px"}}>{item.price }₹</span>
-   <div className="div" style={{height:"75px" , color:"red"}} onClick={removefromcart} > <button className="btn mt-2 btn-primary">Remove From Cart</button><Toaster/></div>
+   <div className="div" style={{height:"75px" , color:"red"}} onClick={removefromcart} > <button className="btn mt-2 btn-primary">Remove From Cart</button></div>
     
     </div>
 
