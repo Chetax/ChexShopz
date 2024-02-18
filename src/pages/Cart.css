@@ -1,0 +1,10 @@
+.Nodataincart{
+ height: 70vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+font-weight: bold;
+font-family: cursive;
+font-size: 20px; 
+}
