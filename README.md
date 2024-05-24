@@ -1,6 +1,7 @@
-# live preview :- 
-### [Visite Site](https://chex-shopz.vercel.app/)
+# Chex Shopz 
+ChexShopz: An e-commerce website built solely with React.js, featuring Context API and Redux for enhanced functionality and seamless user experience.
 
+### [Visite Site](https://chex-shopz.vercel.app/)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
